@@ -7,6 +7,7 @@
 //
 
 #import "HTimelineViewController.h"
+#import "HUserDefaults.h"
 
 @interface HTimelineViewController ()
 
@@ -14,9 +15,20 @@
 
 @implementation HTimelineViewController
 
+NSString *const HTabBarSegueOnboarding = @"HTabBarSegueOnboarding";
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    bool hasOnboarded = [[NSUserDefaults standardUserDefaults] boolForKey:HUserDefaultsKeyUserHasOnboarded];
+    if (!hasOnboarded) {
+        [self.storyboard instantiateViewControllerWithIdentifier:@"onboarding"];
+        [self performSegueWithIdentifier:HTabBarSegueOnboarding sender:self];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

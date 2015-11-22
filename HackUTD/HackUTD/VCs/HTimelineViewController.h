@@ -10,4 +10,6 @@
 
 @interface HTimelineViewController : UIViewController
 
+extern NSString *const HTabBarSegueOnboarding;
+
 @end

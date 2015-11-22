@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,13 +17,40 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch-photo" translatesAutoresizingMaskIntoConstraints="NO" id="T8y-Wx-V2r">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch-logo" translatesAutoresizingMaskIntoConstraints="NO" id="DTF-Lz-bh1">
+                                <rect key="frame" x="180" y="202" width="240" height="195"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="lHO-68-Ov8"/>
+                                    <constraint firstAttribute="height" constant="195" id="oDi-hj-iIG"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="T8y-Wx-V2r" secondAttribute="trailing" constant="-20" id="1Py-5c-9uq"/>
+                            <constraint firstItem="DTF-Lz-bh1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="H4i-WR-ca9"/>
+                            <constraint firstItem="DTF-Lz-bh1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="VgZ-qE-X5m"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="T8y-Wx-V2r" secondAttribute="bottom" id="Zhv-Pf-knf"/>
+                            <constraint firstItem="T8y-Wx-V2r" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="-20" id="Zwu-zO-U76"/>
+                            <constraint firstItem="T8y-Wx-V2r" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="bus-ay-Bvu"/>
+                        </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="376" y="392"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="launch-logo" width="82" height="82"/>
+        <image name="launch-photo" width="1536" height="1024"/>
+    </resources>
 </document>

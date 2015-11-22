@@ -7,6 +7,8 @@
 //
 
 #import "HTabBarController.h"
+#import "HUserDefaults.h"
+#import "HOnboardingViewController.h"
 
 @interface HTabBarController ()
 
@@ -17,6 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -18,6 +18,8 @@
 		8693AA1A1C01EFFD00695C3E /* HFAQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8693AA191C01EFFD00695C3E /* HFAQViewController.m */; };
 		8693AA1D1C01F12200695C3E /* HTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8693AA1C1C01F12200695C3E /* HTabBarController.m */; };
 		8693AA201C01F14A00695C3E /* HOnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8693AA1F1C01F14A00695C3E /* HOnboardingViewController.m */; };
+		8693AA231C02000500695C3E /* HUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 8693AA221C02000500695C3E /* HUserDefaults.m */; };
+		8693AA261C0208AD00695C3E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8693AA251C0208AD00695C3E /* Media.xcassets */; };
 		D1C668DBD34ED8531550E5C6 /* libPods-HackUTD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AC21C283A450BD56A7A10A /* libPods-HackUTD.a */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,9 @@
 		8693AA1C1C01F12200695C3E /* HTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTabBarController.m; path = VCs/HTabBarController.m; sourceTree = "<group>"; };
 		8693AA1E1C01F14A00695C3E /* HOnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HOnboardingViewController.h; path = VCs/HOnboardingViewController.h; sourceTree = "<group>"; };
 		8693AA1F1C01F14A00695C3E /* HOnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HOnboardingViewController.m; path = VCs/HOnboardingViewController.m; sourceTree = "<group>"; };
+		8693AA211C02000500695C3E /* HUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HUserDefaults.h; path = Objects/HUserDefaults.h; sourceTree = "<group>"; };
+		8693AA221C02000500695C3E /* HUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HUserDefaults.m; path = Objects/HUserDefaults.m; sourceTree = "<group>"; };
+		8693AA251C0208AD00695C3E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +132,7 @@
 			children = (
 				8693AA121C01EF2C00695C3E /* App Delegate */,
 				8693AA141C01EFA000695C3E /* VCs */,
+				8693AA241C02000900695C3E /* Objects */,
 				8693AA131C01EF3C00695C3E /* Interfaces & Assets */,
 				867CC7241C01ED6B0012E8CF /* Supporting Files */,
 			);
@@ -172,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				867CC7301C01ED6B0012E8CF /* Main.storyboard */,
+				8693AA251C0208AD00695C3E /* Media.xcassets */,
 				867CC7331C01ED6B0012E8CF /* Assets.xcassets */,
 				867CC7351C01ED6B0012E8CF /* LaunchScreen.storyboard */,
 				867CC7381C01ED6B0012E8CF /* Info.plist */,
@@ -192,6 +199,15 @@
 				8693AA191C01EFFD00695C3E /* HFAQViewController.m */,
 			);
 			name = VCs;
+			sourceTree = "<group>";
+		};
+		8693AA241C02000900695C3E /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				8693AA211C02000500695C3E /* HUserDefaults.h */,
+				8693AA221C02000500695C3E /* HUserDefaults.m */,
+			);
+			name = Objects;
 			sourceTree = "<group>";
 		};
 		F5B548F6BF69232A589D3128 /* Pods */ = {
@@ -311,6 +327,7 @@
 			files = (
 				867CC7371C01ED6B0012E8CF /* LaunchScreen.storyboard in Resources */,
 				867CC7341C01ED6B0012E8CF /* Assets.xcassets in Resources */,
+				8693AA261C0208AD00695C3E /* Media.xcassets in Resources */,
 				867CC7321C01ED6B0012E8CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +403,7 @@
 			files = (
 				867CC7291C01ED6B0012E8CF /* AppDelegate.m in Sources */,
 				8693AA171C01EFE400695C3E /* HTimelineViewController.m in Sources */,
+				8693AA231C02000500695C3E /* HUserDefaults.m in Sources */,
 				8693AA201C01F14A00695C3E /* HOnboardingViewController.m in Sources */,
 				8693AA1A1C01EFFD00695C3E /* HFAQViewController.m in Sources */,
 				867CC7261C01ED6B0012E8CF /* main.m in Sources */,

@@ -43,10 +43,55 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Timeline" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <segue destination="9w8-IK-8aR" kind="presentation" identifier="HTabBarSegueOnboarding" animates="NO" modalTransitionStyle="coverVertical" id="fUE-9c-UeX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
+        </scene>
+        <!--Onboarding View Controller-->
+        <scene sceneID="q0t-DU-nuQ">
+            <objects>
+                <viewController storyboardIdentifier="onboarding" id="9w8-IK-8aR" customClass="HOnboardingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L9O-qf-vXv"/>
+                        <viewControllerLayoutGuide type="bottom" id="oi6-sy-Lau"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g0H-7u-pUJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Loaded by Onboarding VC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hh-uW-4Ub">
+                                <rect key="frame" x="203" y="328" width="194.5" height="17"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Onboarding VC" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="EtV-1S-uoU">
+                                <rect key="frame" x="176" y="279" width="249" height="42"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5hh-uW-4Ub" firstAttribute="centerX" secondItem="EtV-1S-uoU" secondAttribute="centerX" id="IHi-Gv-aXl"/>
+                            <constraint firstItem="EtV-1S-uoU" firstAttribute="centerY" secondItem="g0H-7u-pUJ" secondAttribute="centerY" id="a2f-n2-Xax"/>
+                            <constraint firstItem="EtV-1S-uoU" firstAttribute="centerX" secondItem="g0H-7u-pUJ" secondAttribute="centerX" id="bdN-7p-AKY"/>
+                            <constraint firstItem="5hh-uW-4Ub" firstAttribute="top" secondItem="EtV-1S-uoU" secondAttribute="bottom" constant="8" symbolic="YES" id="cCF-X9-Abo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H3p-J8-ta8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="-695"/>
         </scene>
         <!--FAQ-->
         <scene sceneID="wg7-f3-ORb">
@@ -94,7 +139,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController id="49e-Tb-3d3" customClass="HTabBarController" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
