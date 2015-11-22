@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		867CC7261C01ED6B0012E8CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 867CC7251C01ED6B0012E8CF /* main.m */; };
 		867CC7291C01ED6B0012E8CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 867CC7281C01ED6B0012E8CF /* AppDelegate.m */; };
-		867CC72C1C01ED6B0012E8CF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867CC72B1C01ED6B0012E8CF /* FirstViewController.m */; };
-		867CC72F1C01ED6B0012E8CF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867CC72E1C01ED6B0012E8CF /* SecondViewController.m */; };
 		867CC7321C01ED6B0012E8CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867CC7301C01ED6B0012E8CF /* Main.storyboard */; };
 		867CC7341C01ED6B0012E8CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867CC7331C01ED6B0012E8CF /* Assets.xcassets */; };
 		867CC7371C01ED6B0012E8CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867CC7351C01ED6B0012E8CF /* LaunchScreen.storyboard */; };
 		867CC7421C01ED6B0012E8CF /* HackUTDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 867CC7411C01ED6B0012E8CF /* HackUTDTests.m */; };
 		867CC74D1C01ED6B0012E8CF /* HackUTDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 867CC74C1C01ED6B0012E8CF /* HackUTDUITests.m */; };
+		8693AA171C01EFE400695C3E /* HTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8693AA161C01EFE400695C3E /* HTimelineViewController.m */; };
+		8693AA1A1C01EFFD00695C3E /* HFAQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8693AA191C01EFFD00695C3E /* HFAQViewController.m */; };
+		8693AA1D1C01F12200695C3E /* HTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8693AA1C1C01F12200695C3E /* HTabBarController.m */; };
+		8693AA201C01F14A00695C3E /* HOnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8693AA1F1C01F14A00695C3E /* HOnboardingViewController.m */; };
 		D1C668DBD34ED8531550E5C6 /* libPods-HackUTD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AC21C283A450BD56A7A10A /* libPods-HackUTD.a */; };
 /* End PBXBuildFile section */
 
@@ -44,10 +46,6 @@
 		867CC7251C01ED6B0012E8CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		867CC7271C01ED6B0012E8CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		867CC7281C01ED6B0012E8CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		867CC72A1C01ED6B0012E8CF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		867CC72B1C01ED6B0012E8CF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		867CC72D1C01ED6B0012E8CF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		867CC72E1C01ED6B0012E8CF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		867CC7311C01ED6B0012E8CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		867CC7331C01ED6B0012E8CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		867CC7361C01ED6B0012E8CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +56,14 @@
 		867CC7481C01ED6B0012E8CF /* HackUTDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackUTDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		867CC74C1C01ED6B0012E8CF /* HackUTDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackUTDUITests.m; sourceTree = "<group>"; };
 		867CC74E1C01ED6B0012E8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8693AA151C01EFE400695C3E /* HTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTimelineViewController.h; path = VCs/HTimelineViewController.h; sourceTree = "<group>"; };
+		8693AA161C01EFE400695C3E /* HTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTimelineViewController.m; path = VCs/HTimelineViewController.m; sourceTree = "<group>"; };
+		8693AA181C01EFFD00695C3E /* HFAQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HFAQViewController.h; path = VCs/HFAQViewController.h; sourceTree = "<group>"; };
+		8693AA191C01EFFD00695C3E /* HFAQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HFAQViewController.m; path = VCs/HFAQViewController.m; sourceTree = "<group>"; };
+		8693AA1B1C01F12200695C3E /* HTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTabBarController.h; path = VCs/HTabBarController.h; sourceTree = "<group>"; };
+		8693AA1C1C01F12200695C3E /* HTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTabBarController.m; path = VCs/HTabBarController.m; sourceTree = "<group>"; };
+		8693AA1E1C01F14A00695C3E /* HOnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HOnboardingViewController.h; path = VCs/HOnboardingViewController.h; sourceTree = "<group>"; };
+		8693AA1F1C01F14A00695C3E /* HOnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HOnboardingViewController.m; path = VCs/HOnboardingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,10 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				8693AA121C01EF2C00695C3E /* App Delegate */,
-				867CC72A1C01ED6B0012E8CF /* FirstViewController.h */,
-				867CC72B1C01ED6B0012E8CF /* FirstViewController.m */,
-				867CC72D1C01ED6B0012E8CF /* SecondViewController.h */,
-				867CC72E1C01ED6B0012E8CF /* SecondViewController.m */,
+				8693AA141C01EFA000695C3E /* VCs */,
 				8693AA131C01EF3C00695C3E /* Interfaces & Assets */,
 				867CC7241C01ED6B0012E8CF /* Supporting Files */,
 			);
@@ -174,6 +177,21 @@
 				867CC7381C01ED6B0012E8CF /* Info.plist */,
 			);
 			name = "Interfaces & Assets";
+			sourceTree = "<group>";
+		};
+		8693AA141C01EFA000695C3E /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				8693AA1B1C01F12200695C3E /* HTabBarController.h */,
+				8693AA1C1C01F12200695C3E /* HTabBarController.m */,
+				8693AA1E1C01F14A00695C3E /* HOnboardingViewController.h */,
+				8693AA1F1C01F14A00695C3E /* HOnboardingViewController.m */,
+				8693AA151C01EFE400695C3E /* HTimelineViewController.h */,
+				8693AA161C01EFE400695C3E /* HTimelineViewController.m */,
+				8693AA181C01EFFD00695C3E /* HFAQViewController.h */,
+				8693AA191C01EFFD00695C3E /* HFAQViewController.m */,
+			);
+			name = VCs;
 			sourceTree = "<group>";
 		};
 		F5B548F6BF69232A589D3128 /* Pods */ = {
@@ -366,10 +384,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				867CC72F1C01ED6B0012E8CF /* SecondViewController.m in Sources */,
 				867CC7291C01ED6B0012E8CF /* AppDelegate.m in Sources */,
-				867CC72C1C01ED6B0012E8CF /* FirstViewController.m in Sources */,
+				8693AA171C01EFE400695C3E /* HTimelineViewController.m in Sources */,
+				8693AA201C01F14A00695C3E /* HOnboardingViewController.m in Sources */,
+				8693AA1A1C01EFFD00695C3E /* HFAQViewController.m in Sources */,
 				867CC7261C01ED6B0012E8CF /* main.m in Sources */,
+				8693AA1D1C01F12200695C3E /* HTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

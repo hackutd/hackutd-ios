@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  HFAQViewController.h
 //  HackUTD
 //
 //  Created by Izuchukwu Elechi on 11/22/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface HFAQViewController : UIViewController
 
 @end
-

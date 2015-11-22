@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  HTabBarController.h
 //  HackUTD
 //
 //  Created by Izuchukwu Elechi on 11/22/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface HTabBarController : UITabBarController
 
 @end
-
