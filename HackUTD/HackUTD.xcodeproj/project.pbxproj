@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		867CC7261C01ED6B0012E8CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 867CC7251C01ED6B0012E8CF /* main.m */; };
+		867CC7291C01ED6B0012E8CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 867CC7281C01ED6B0012E8CF /* AppDelegate.m */; };
+		867CC72C1C01ED6B0012E8CF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867CC72B1C01ED6B0012E8CF /* FirstViewController.m */; };
+		867CC72F1C01ED6B0012E8CF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867CC72E1C01ED6B0012E8CF /* SecondViewController.m */; };
+		867CC7321C01ED6B0012E8CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867CC7301C01ED6B0012E8CF /* Main.storyboard */; };
+		867CC7341C01ED6B0012E8CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867CC7331C01ED6B0012E8CF /* Assets.xcassets */; };
+		867CC7371C01ED6B0012E8CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867CC7351C01ED6B0012E8CF /* LaunchScreen.storyboard */; };
+		867CC7421C01ED6B0012E8CF /* HackUTDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 867CC7411C01ED6B0012E8CF /* HackUTDTests.m */; };
+		867CC74D1C01ED6B0012E8CF /* HackUTDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 867CC74C1C01ED6B0012E8CF /* HackUTDUITests.m */; };
+		D1C668DBD34ED8531550E5C6 /* libPods-HackUTD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AC21C283A450BD56A7A10A /* libPods-HackUTD.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		867CC73E1C01ED6B0012E8CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 867CC7191C01ED6B0012E8CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 867CC7201C01ED6B0012E8CF;
+			remoteInfo = HackUTD;
+		};
+		867CC7491C01ED6B0012E8CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 867CC7191C01ED6B0012E8CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 867CC7201C01ED6B0012E8CF;
+			remoteInfo = HackUTD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09AC21C283A450BD56A7A10A /* libPods-HackUTD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackUTD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5178F640F13F854B7AF11C91 /* Pods-HackUTD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackUTD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackUTD/Pods-HackUTD.debug.xcconfig"; sourceTree = "<group>"; };
+		72F1356C9925BF9DE9785FCE /* Pods-HackUTD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackUTD.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackUTD/Pods-HackUTD.release.xcconfig"; sourceTree = "<group>"; };
+		867CC7211C01ED6B0012E8CF /* HackUTD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackUTD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		867CC7251C01ED6B0012E8CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		867CC7271C01ED6B0012E8CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		867CC7281C01ED6B0012E8CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		867CC72A1C01ED6B0012E8CF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		867CC72B1C01ED6B0012E8CF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		867CC72D1C01ED6B0012E8CF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		867CC72E1C01ED6B0012E8CF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		867CC7311C01ED6B0012E8CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		867CC7331C01ED6B0012E8CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		867CC7361C01ED6B0012E8CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		867CC7381C01ED6B0012E8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		867CC73D1C01ED6B0012E8CF /* HackUTDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackUTDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		867CC7411C01ED6B0012E8CF /* HackUTDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackUTDTests.m; sourceTree = "<group>"; };
+		867CC7431C01ED6B0012E8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		867CC7481C01ED6B0012E8CF /* HackUTDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackUTDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		867CC74C1C01ED6B0012E8CF /* HackUTDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackUTDUITests.m; sourceTree = "<group>"; };
+		867CC74E1C01ED6B0012E8CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		867CC71E1C01ED6B0012E8CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C668DBD34ED8531550E5C6 /* libPods-HackUTD.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867CC73A1C01ED6B0012E8CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867CC7451C01ED6B0012E8CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63EEA437C116620843AA2ABD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09AC21C283A450BD56A7A10A /* libPods-HackUTD.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		867CC7181C01ED6B0012E8CF = {
+			isa = PBXGroup;
+			children = (
+				867CC7231C01ED6B0012E8CF /* HackUTD */,
+				867CC7401C01ED6B0012E8CF /* HackUTDTests */,
+				867CC74B1C01ED6B0012E8CF /* HackUTDUITests */,
+				867CC7221C01ED6B0012E8CF /* Products */,
+				F5B548F6BF69232A589D3128 /* Pods */,
+				63EEA437C116620843AA2ABD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		867CC7221C01ED6B0012E8CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				867CC7211C01ED6B0012E8CF /* HackUTD.app */,
+				867CC73D1C01ED6B0012E8CF /* HackUTDTests.xctest */,
+				867CC7481C01ED6B0012E8CF /* HackUTDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		867CC7231C01ED6B0012E8CF /* HackUTD */ = {
+			isa = PBXGroup;
+			children = (
+				8693AA121C01EF2C00695C3E /* App Delegate */,
+				867CC72A1C01ED6B0012E8CF /* FirstViewController.h */,
+				867CC72B1C01ED6B0012E8CF /* FirstViewController.m */,
+				867CC72D1C01ED6B0012E8CF /* SecondViewController.h */,
+				867CC72E1C01ED6B0012E8CF /* SecondViewController.m */,
+				8693AA131C01EF3C00695C3E /* Interfaces & Assets */,
+				867CC7241C01ED6B0012E8CF /* Supporting Files */,
+			);
+			path = HackUTD;
+			sourceTree = "<group>";
+		};
+		867CC7241C01ED6B0012E8CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				867CC7251C01ED6B0012E8CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		867CC7401C01ED6B0012E8CF /* HackUTDTests */ = {
+			isa = PBXGroup;
+			children = (
+				867CC7411C01ED6B0012E8CF /* HackUTDTests.m */,
+				867CC7431C01ED6B0012E8CF /* Info.plist */,
+			);
+			path = HackUTDTests;
+			sourceTree = "<group>";
+		};
+		867CC74B1C01ED6B0012E8CF /* HackUTDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				867CC74C1C01ED6B0012E8CF /* HackUTDUITests.m */,
+				867CC74E1C01ED6B0012E8CF /* Info.plist */,
+			);
+			path = HackUTDUITests;
+			sourceTree = "<group>";
+		};
+		8693AA121C01EF2C00695C3E /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				867CC7271C01ED6B0012E8CF /* AppDelegate.h */,
+				867CC7281C01ED6B0012E8CF /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		8693AA131C01EF3C00695C3E /* Interfaces & Assets */ = {
+			isa = PBXGroup;
+			children = (
+				867CC7301C01ED6B0012E8CF /* Main.storyboard */,
+				867CC7331C01ED6B0012E8CF /* Assets.xcassets */,
+				867CC7351C01ED6B0012E8CF /* LaunchScreen.storyboard */,
+				867CC7381C01ED6B0012E8CF /* Info.plist */,
+			);
+			name = "Interfaces & Assets";
+			sourceTree = "<group>";
+		};
+		F5B548F6BF69232A589D3128 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5178F640F13F854B7AF11C91 /* Pods-HackUTD.debug.xcconfig */,
+				72F1356C9925BF9DE9785FCE /* Pods-HackUTD.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		867CC7201C01ED6B0012E8CF /* HackUTD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867CC7511C01ED6B0012E8CF /* Build configuration list for PBXNativeTarget "HackUTD" */;
+			buildPhases = (
+				5DBB67745FD5054282042EB3 /* Check Pods Manifest.lock */,
+				867CC71D1C01ED6B0012E8CF /* Sources */,
+				867CC71E1C01ED6B0012E8CF /* Frameworks */,
+				867CC71F1C01ED6B0012E8CF /* Resources */,
+				A03963EEE7F21F87473D7EF7 /* Embed Pods Frameworks */,
+				DE84095E47026D5F12AAEED8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackUTD;
+			productName = HackUTD;
+			productReference = 867CC7211C01ED6B0012E8CF /* HackUTD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		867CC73C1C01ED6B0012E8CF /* HackUTDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867CC7541C01ED6B0012E8CF /* Build configuration list for PBXNativeTarget "HackUTDTests" */;
+			buildPhases = (
+				867CC7391C01ED6B0012E8CF /* Sources */,
+				867CC73A1C01ED6B0012E8CF /* Frameworks */,
+				867CC73B1C01ED6B0012E8CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				867CC73F1C01ED6B0012E8CF /* PBXTargetDependency */,
+			);
+			name = HackUTDTests;
+			productName = HackUTDTests;
+			productReference = 867CC73D1C01ED6B0012E8CF /* HackUTDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		867CC7471C01ED6B0012E8CF /* HackUTDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867CC7571C01ED6B0012E8CF /* Build configuration list for PBXNativeTarget "HackUTDUITests" */;
+			buildPhases = (
+				867CC7441C01ED6B0012E8CF /* Sources */,
+				867CC7451C01ED6B0012E8CF /* Frameworks */,
+				867CC7461C01ED6B0012E8CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				867CC74A1C01ED6B0012E8CF /* PBXTargetDependency */,
+			);
+			name = HackUTDUITests;
+			productName = HackUTDUITests;
+			productReference = 867CC7481C01ED6B0012E8CF /* HackUTDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		867CC7191C01ED6B0012E8CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = HackUTD;
+				TargetAttributes = {
+					867CC7201C01ED6B0012E8CF = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					867CC73C1C01ED6B0012E8CF = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 867CC7201C01ED6B0012E8CF;
+					};
+					867CC7471C01ED6B0012E8CF = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 867CC7201C01ED6B0012E8CF;
+					};
+				};
+			};
+			buildConfigurationList = 867CC71C1C01ED6B0012E8CF /* Build configuration list for PBXProject "HackUTD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 867CC7181C01ED6B0012E8CF;
+			productRefGroup = 867CC7221C01ED6B0012E8CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				867CC7201C01ED6B0012E8CF /* HackUTD */,
+				867CC73C1C01ED6B0012E8CF /* HackUTDTests */,
+				867CC7471C01ED6B0012E8CF /* HackUTDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		867CC71F1C01ED6B0012E8CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867CC7371C01ED6B0012E8CF /* LaunchScreen.storyboard in Resources */,
+				867CC7341C01ED6B0012E8CF /* Assets.xcassets in Resources */,
+				867CC7321C01ED6B0012E8CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867CC73B1C01ED6B0012E8CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867CC7461C01ED6B0012E8CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DBB67745FD5054282042EB3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A03963EEE7F21F87473D7EF7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackUTD/Pods-HackUTD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE84095E47026D5F12AAEED8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackUTD/Pods-HackUTD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		867CC71D1C01ED6B0012E8CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867CC72F1C01ED6B0012E8CF /* SecondViewController.m in Sources */,
+				867CC7291C01ED6B0012E8CF /* AppDelegate.m in Sources */,
+				867CC72C1C01ED6B0012E8CF /* FirstViewController.m in Sources */,
+				867CC7261C01ED6B0012E8CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867CC7391C01ED6B0012E8CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867CC7421C01ED6B0012E8CF /* HackUTDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867CC7441C01ED6B0012E8CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867CC74D1C01ED6B0012E8CF /* HackUTDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		867CC73F1C01ED6B0012E8CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 867CC7201C01ED6B0012E8CF /* HackUTD */;
+			targetProxy = 867CC73E1C01ED6B0012E8CF /* PBXContainerItemProxy */;
+		};
+		867CC74A1C01ED6B0012E8CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 867CC7201C01ED6B0012E8CF /* HackUTD */;
+			targetProxy = 867CC7491C01ED6B0012E8CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		867CC7301C01ED6B0012E8CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				867CC7311C01ED6B0012E8CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		867CC7351C01ED6B0012E8CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				867CC7361C01ED6B0012E8CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		867CC74F1C01ED6B0012E8CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		867CC7501C01ED6B0012E8CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		867CC7521C01ED6B0012E8CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5178F640F13F854B7AF11C91 /* Pods-HackUTD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HackUTD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.hackutd.HackUTD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		867CC7531C01ED6B0012E8CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F1356C9925BF9DE9785FCE /* Pods-HackUTD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HackUTD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.hackutd.HackUTD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		867CC7551C01ED6B0012E8CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HackUTDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.hackutd.HackUTDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackUTD.app/HackUTD";
+			};
+			name = Debug;
+		};
+		867CC7561C01ED6B0012E8CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HackUTDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.hackutd.HackUTDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackUTD.app/HackUTD";
+			};
+			name = Release;
+		};
+		867CC7581C01ED6B0012E8CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HackUTDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.hackutd.HackUTDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HackUTD;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		867CC7591C01ED6B0012E8CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HackUTDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.hackutd.HackUTDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HackUTD;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		867CC71C1C01ED6B0012E8CF /* Build configuration list for PBXProject "HackUTD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867CC74F1C01ED6B0012E8CF /* Debug */,
+				867CC7501C01ED6B0012E8CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		867CC7511C01ED6B0012E8CF /* Build configuration list for PBXNativeTarget "HackUTD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867CC7521C01ED6B0012E8CF /* Debug */,
+				867CC7531C01ED6B0012E8CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		867CC7541C01ED6B0012E8CF /* Build configuration list for PBXNativeTarget "HackUTDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867CC7551C01ED6B0012E8CF /* Debug */,
+				867CC7561C01ED6B0012E8CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		867CC7571C01ED6B0012E8CF /* Build configuration list for PBXNativeTarget "HackUTDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867CC7581C01ED6B0012E8CF /* Debug */,
+				867CC7591C01ED6B0012E8CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 867CC7191C01ED6B0012E8CF /* Project object */;
+}
